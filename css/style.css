@@ -17,8 +17,9 @@
    /* Style the tab */
    .tab {
     float: left;
-    /* border: 1px solid #ccc; */
-    background-color: #f1f1f1;
+    border: 0.1px solid #ccc;
+    /* background-color: #f1f1f1; */
+    background-color: #5F939A;
     width: 30%;
     height: fit-content;
    
@@ -54,3 +55,6 @@
     border-left: none;
     height: 700px;
   } */
+a{
+    background-color: #E45826;
+}
