@@ -25,17 +25,11 @@
         <button class="tablinks" onclick="dashboard(event, 'Home')">Home</button>
       </div>
 
-<!-- <div class="tablinks"><a href="Dashboard">Dashboard</a></div> -->
-
-
-
       <div id="Dashboard" class="tabcontent">
         <h3>Weekly Report</h3>
         <p>Attendance Chart</p>
-        <!-- <h4 class="results" id="totalincome">Yearly income</h4>
-        <button onclick="totalincomeperYear()">
-            <p>Attendance Chart</p>
-        </button> -->
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
       </div>
 
 
@@ -50,7 +44,9 @@
 
 
 
-
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+      </script>
 
     <script src="./script.js"></script>
 </body>
