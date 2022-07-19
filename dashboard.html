@@ -13,30 +13,46 @@
 
     <title>Student Digital-Registry</title>
 </head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="./script.js"></script>
 <body>
     
+    <div class="navbar">
+        <div class="logo">Student Digital-Registry</div>
+    </div>
+    <div class="tab">
+        <button class="tablinks" onclick="dashboard(event, 'Dashboard') "id="defaultOpen">Dashboard</button>
+        <button class="tablinks" onclick="dashboard(event, 'Student')">Student</button>
+        <button class="tablinks" onclick="dashboard(event, 'Admin')">Admin</button>
+        <button class="tablinks" onclick="dashboard(event, 'Home')">Home</button>
+      </div>
+
+
+
+
+
+
+      <div id="Dashboard" class="tabcontent">
+        <h3>Weekly Report</h3>
+        <p>Attendance Chart</p>
+        <!-- <h4 class="results" id="totalincome">Yearly income</h4>
+        <button onclick="totalincomeperYear()">
+            <p>Attendance Chart</p>
+        </button> -->
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
 </body>
 </html>
