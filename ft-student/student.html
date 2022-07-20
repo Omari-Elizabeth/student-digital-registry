@@ -41,7 +41,7 @@
             <!-- <input type="text" name="date" id="date"> -->
         </span>
         <div class="signin">
-            <button class="sign_in" type="submit">sign In</button>
+            <button class="sign_in" onclick="get_time()">sign In</button>
             <button class="sign_out" type="submit">Sign Out</button>
 
         </div>
@@ -66,12 +66,15 @@
             Email: admissions@admin.moringaschool.com
         </div>
     </div>
-    <p id="p2" style="margin:300px;">Hello World!</p>
 
-<script>
-    document.getElementById("p2").style.color = "blue";
+    <script>
+        function get_time() {
+            let time = document.getElementById('date').innerHTML = Date();
 
-    let time = document.getElementById('date').innerHTML = Date();
-</script>
+            return alert(`You have logged in: ${time}`);
+        };
+
+    </script>
 </body>
+
 </html>
