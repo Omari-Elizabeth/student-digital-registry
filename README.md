@@ -23,7 +23,7 @@
 |---|---|---|
 |RONNOH|_________|_________|
 |OMAR|___________|_________|
-|MAGDALENE|_________|_______|
+|MAGDALINE|_________|_______|
 |MERCY|___________|_________|
 
  Dashboard.
@@ -44,6 +44,6 @@
  https://github.com/Rlynette
 
  https://github.com/mercylynn
- 
+
  https://github.com/magdalinemwai
  
