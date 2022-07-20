@@ -12,10 +12,8 @@
     /* font-family: cursive; */
     text-align: center;
    }
-   /* * {box-sizing: border-box}
-    body {font-family: "Lato", sans-serif;} */
+
    /* Style the tab */
-   
   .tab {
     float: left;
     border: 1px solid #ccc;
@@ -50,14 +48,8 @@
   
   /* Style the tab content */
   .tabcontent {
-    /* float: left; */
     display: flex;
-    /* flex: 1; */
-    /* padding: 30px;
-    border: 1px solid #ccc;
-    width: 80%;
-    border-left: none;
-    height: 700px; */
+  
   }
 
   .tabcontent .text{
@@ -69,13 +61,6 @@
     padding: 20px;
   font-size: 50px;
   }
-/* body{
-    float: none;
-  justify-content: center;
-  background-size: cover;
-  background-repeat:no-repeat ;
-  background-image: 
-} */
 
 img{
   flex: 1;
@@ -83,38 +68,9 @@ img{
   align-items: center;
 }
 
-/* img{
-display: flex;
- justify-content: center;
-  right: 5;
-  width: 50%;
-  height: 10%;
-  bottom: 20px;
-} */
-
-/* .existence{
-  display: flex;
-
-}
-.existence .text{
-  flex: 1;
-  bottom: 30px;
-}
-.existence h2{
-  padding: 20px;
-  font-size: 38px;
-}
-.existence p{
-  padding: 20px;
-  font-size: 20px;
-}
-img{
-  flex: 2;
-  width: 80%;
-  float: right;
-} */
-.chart{
-  width: 100%;
+#myChart{
+  /* width: 1000%; */
   justify-content: center;
-
+  height: 100%;
+  height: fit-content;
 }
