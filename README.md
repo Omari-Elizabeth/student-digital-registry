@@ -33,14 +33,17 @@
  The home page covers LOGIN BUTTON for both student and admin who need access to the attendance dashboard.
 
  The landing page is a form of guide on what the other pages contain,and has links through which one can click and access the rest of the pages.
- 
+
  At the end of the landing page is a footer that has a summary and links back to the pages that preceed it,
 
 
  # AUTHOR'S INFO;
  
  https://github.com/Omari-Elizabeth
+
  https://github.com/Rlynette
+
  https://github.com/mercylynn
+ 
  https://github.com/magdalinemwai
  
