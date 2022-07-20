@@ -17,8 +17,8 @@
   .tab {
     float: left;
     border: 1px solid #ccc;
-    background-color: #8d9394;
-    width: 30%;
+    background-color: #5F939A;
+    width: 20%;
     height: fit-content;
   }
   /* Style the buttons inside the tab */
@@ -75,14 +75,14 @@ img{
   /* width: 1000%; */
   flex: 1;
   justify-content: center;
-  height: 100%;
-  height: fit-content;
+  width: 100%;
+  /* height: fit-content; */
 }
 
 #myChart2{
   /* width: 1000%; */
-  flex: 1;
+  flex: 2;
   justify-content: center;
-  height: 100%;
-  height: fit-content;
+  width: 100%;
+  /* height: fit-content; */
 }
