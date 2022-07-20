@@ -68,8 +68,20 @@ img{
   align-items: center;
 }
 
-#myChart{
+.chart{
+  display: flex;
+}
+#myChart1{
   /* width: 1000%; */
+  flex: 1;
+  justify-content: center;
+  height: 100%;
+  height: fit-content;
+}
+
+#myChart2{
+  /* width: 1000%; */
+  flex: 1;
   justify-content: center;
   height: 100%;
   height: fit-content;

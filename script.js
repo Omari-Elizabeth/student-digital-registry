@@ -14,10 +14,10 @@ function dashboard(evt, dashboardName) {
 
 
 var xValues = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-var yValues = [75, 90, 82, 48, 60];
+var yValues = [78, 90, 82, 49, 63];
 var barColors = ["red", "green","blue","orange","brown"];
 
-new Chart("myChart", {
+new Chart("myChart1", {
   type: "bar",
   data: {
     labels: xValues,
@@ -31,6 +31,33 @@ new Chart("myChart", {
     title: {
       display: true,
       text: "WEEKLY ATTENDANCE CHART"
+    }
+  }
+});
+
+var xValues = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+var yValues = [78, 90, 82, 49, 63];
+var barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("myChart2", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "WEEKLY ATTENDANCE PIE-CHART"
     }
   }
 });
