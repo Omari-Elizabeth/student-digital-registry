@@ -13,33 +13,60 @@
 
 <body>
     <div class="sidebar">
+        <h4>Menu</h4>
         <a href="#home">Home</a>
         <a href="#student">student</a>
         <a href="#dashboard">Dashboard</a>
     </div>
-    <div class="info">
-        <label for="name">Name</label>
-        <input type="text" name="Name" id="name">
-        <label for="serial-number">Laptop Number</label>
-        <input type="text" name="l-serial" id="l-serial">
-        <label for="temparature">Temparature</label>
-        <input type="text" name="temp" id="temp">
-        <label for="date-time">Date & Time</label>
-        <input type="text" name="date" id="date">
+    <div class="title">
+        <p><strong>Student Digital Registry</strong></p>
     </div>
-    <div class="signin">
-        <input type="button" value="Sign In">
-        <input type="button" value="Sign Out">
+    <div class="content">
+
+        <div class="info">
+            <span>
+                <label for="name">Full Name</label>
+                <input type="text" name="Name" id="name">
+            </span>
+            <span>
+                <label for="serial-number">Laptop Number</label>
+                <input type="text" name="l-serial" id="l-serial">
+            </span>
+            <span>
+                <label for="temparature">Temparature</label>
+                <input type="text" name="temp" id="temp">
+            </span>
+            <span>
+                <label for="date-time">Date & Time</label>
+                <input type="text" name="date" id="date">
+            </span>
+            <div class="signin">
+                <button class="sign_in" type="submit">sign In</button>
+                <button class="sign_out" type="submit">Sign Out</button>
+
+            </div>
+        </div>
+
     </div>
-    <button class="sign_in" type="submit">sign In</button>
-    <button class="sign_out" type="submit">Sign Out</button>
     <Footer>
         <div class="contacts">
             <div id="tm">
-                
+                <img src="" alt="Mentor">
+                We're here to ensure that you <br> complete and grasp the <br> course contents. <br>
+                Let us help you; <br>
+                Email: educator@mentor.moringaschool.com
             </div>
-            <div id="support"></div>
-            <div id="admin"></div>
+            <div id="support">
+                <img src="support.svg" alt="Student support">
+                Tell us how we can better your experience <br>
+                Email: student.support@access.moringaschool.com
+            </div>
+            <div id="admin">
+                <img src="admin.svg" alt="Admin">
+                Our Admissions team is always on standby <br>
+                to answer your Admission-related questions. <br>
+                Email: admissions@admin.moringaschool.com
+            </div>
         </div>
     </Footer>
 </body>
