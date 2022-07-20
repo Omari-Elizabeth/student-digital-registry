@@ -37,7 +37,8 @@
         </span>
         <span>
             <label for="date-time">Date & Time</label>
-            <input type="text" name="date" id="date">
+            <p id="date"></p>
+            <!-- <input type="text" name="date" id="date"> -->
         </span>
         <div class="signin">
             <button class="sign_in" type="submit">sign In</button>
@@ -67,6 +68,10 @@
     </div>
     <p id="p2" style="margin:300px;">Hello World!</p>
 
-<script src="./js/student.js"></script>
+<script>
+    document.getElementById("p2").style.color = "blue";
+
+    let time = document.getElementById('date').innerHTML = Date();
+</script>
 </body>
 </html>
