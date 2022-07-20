@@ -1,6 +1,5 @@
 *{
     font-family: 'Noto Serif' serif;
-    box-sizing: border-box;
 }
 .title{
     font-size: 55px;
@@ -11,12 +10,12 @@
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 250px;
+    width: 300px;
     background-color: #5F939A;
     position: fixed;
     height: 100%;
     overflow: auto;
-    
+    font-size: 25px;
   }
   
   .sidebar a {
@@ -31,12 +30,11 @@
     color: black;
   }
   
-  div.content {
-    font-size: 20px;
-    margin-left: 200px;
+  /* div.content {
+    margin-left: 300px;
     padding: 1px 16px;
     height: 1000px;
-  }
+  } */
   
   @media screen and (max-width: 700px) {
     .sidebar {
@@ -55,10 +53,15 @@
     }
   }
   .info{
+    font-size: 25px;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
-    margin-left: 220px;
+    /* margin-left: 20px; */
+    margin-top: 50px;
+    margin-left: 300px;
+    padding: 1px 16px;
+    /* height: 100px; */
 
   } 
   label {
@@ -66,26 +69,34 @@
     width: 250px;
     text-align: right;
   }
+  input{
+    width: 400px;
+    height: 40px;
+  }
   button{
     background-color: #E45826; 
-    /* float: right; */
+    /* float: right;  */
     padding: 8px;
-    margin: 10px;
+    margin-top: 20px;
     font-size: 15px;
+    width: 150px;
     border: none;
     border-radius: 12px;
    
   }
  .contacts{
+    padding-top: 10px;
+    margin-top: 100px;
     font-size: 18px;
-    padding-top: 60px;
-    margin-top: 60px;
-    /* background-color: #5F939A; */
-    /* color: white; */
+    margin-left: 300px;
     display: flex;
+    justify-content: space-between;
     text-align: center;
-    clear: right;
- }
+    clear: right; 
+ } 
  span{
-    margin-bottom: 12px;
+    margin-bottom: 14px;
+ }
+ #id{
+  box-shadow: 3px 6px rgb(216, 202, 202);
  }
