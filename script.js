@@ -30,7 +30,7 @@ new Chart("myChart", {
     legend: {display: false},
     title: {
       display: true,
-      text: "Weekly Attendance Chart"
+      text: "WEEKLY ATTENDANCE CHART"
     }
   }
 });

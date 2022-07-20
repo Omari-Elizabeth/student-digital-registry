@@ -48,16 +48,27 @@
     background-color:#E45826;
   }
   
-  Style the tab content
+  /* Style the tab content */
   .tabcontent {
-    float: left;
-    padding: 0px 12px;
+    /* float: left; */
+    display: flex;
+    /* flex: 1; */
+    /* padding: 30px;
     border: 1px solid #ccc;
     width: 80%;
     border-left: none;
-    height: 700px;
+    height: 700px; */
   }
 
+  .tabcontent .text{
+    flex: 1;
+    bottom: 30px
+  }
+
+  .tabcontent h1{
+    padding: 20px;
+  font-size: 50px;
+  }
 /* body{
     float: none;
   justify-content: center;
@@ -65,3 +76,45 @@
   background-repeat:no-repeat ;
   background-image: 
 } */
+
+img{
+  flex: 1;
+  width: 100%;
+  align-items: center;
+}
+
+/* img{
+display: flex;
+ justify-content: center;
+  right: 5;
+  width: 50%;
+  height: 10%;
+  bottom: 20px;
+} */
+
+/* .existence{
+  display: flex;
+
+}
+.existence .text{
+  flex: 1;
+  bottom: 30px;
+}
+.existence h2{
+  padding: 20px;
+  font-size: 38px;
+}
+.existence p{
+  padding: 20px;
+  font-size: 20px;
+}
+img{
+  flex: 2;
+  width: 80%;
+  float: right;
+} */
+.chart{
+  width: 100%;
+  justify-content: center;
+
+}
