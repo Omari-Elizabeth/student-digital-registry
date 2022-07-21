@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Student Digital-Registry</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">Student Digital-Registry</div>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="dashboard(event, 'Dashboard')"id="defaultOpen"><a href="dashboard.html">Dashboard</a></button>
+        <button class="tablinks" onclick="dashboard(event, 'Student')"><a href="student.html">Student</a></button>
+        <button class="tablinks" onclick="dashboard(event, 'Admin')"><a href="admin.html">Admin</a></button>
+        <button class="tablinks" onclick="dashboard(event, 'Home')"><a href="index.html">Home</a></button>
+      </div>
+
+
+
+    <div id="Dashboard" class="tabcontent">
+
+       <div class="text">
+        <h1>Weekly Report</h1>
+        <h1>Attendance Chart</h1>
+       </div>
+
+       <div class="img1">
+        <img src="./undraw_visualization_re_1kag.svg" width="200px" height="400px" alt="">
+    
+       </div>
+    </div>
+
+    <div class="chart">
+      <canvas id="myChart1" style="max-width:600px;width:100%;"></canvas>
+      
+      <canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+    </div>
+
+
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+      </script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
