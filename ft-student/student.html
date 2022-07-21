@@ -24,22 +24,21 @@
 
     <div class="info">
         <span>
-            <label for="name">Full Name</label>
+            <label for="name">Full Name: </label>
             <input type="text" name="Name" id="name">
         </span>
         <span>
-            <label for="serial-number">Laptop Number</label>
+            <label for="serial-number">Laptop Number: </label>
             <input type="text" name="l-serial" id="l-serial">
         </span>
         <span>
-            <label for="temparature">Temparature</label>
+            <label for="temparature">Temparature: </label>
             <input type="text" name="temp" id="temp">
         </span>
         <span>
-            <label for="date-time">Date & Time</label>
+            <label for="date-time"></label>
             <p id="date"></p>
-            <!-- <input type="text" name="date" id="date"> -->
-        </span>
+        </span>  
         <div class="signin">
             <button class="sign_in" onclick="get_time()">sign In</button>
             <button class="sign_out" type="submit">Sign Out</button>
@@ -71,7 +70,7 @@
         function get_time() {
             let time = document.getElementById('date').innerHTML = Date();
 
-            return alert(`You have logged in: ${time}`);
+            return alert(`You have logged in on: ${time}`);
         };
 
     </script>

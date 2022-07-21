@@ -20,21 +20,15 @@
   
   .sidebar a {
     display: block;
-    color: white;
+    color: black;
     padding: 16px;
     text-decoration: none;
   }
     
   .sidebar a:hover:not(.active) {
-    background-color: #E45826;
+    background-color: white;
     color: black;
   }
-  
-  /* div.content {
-    margin-left: 300px;
-    padding: 1px 16px;
-    height: 1000px;
-  } */
   
   @media screen and (max-width: 700px) {
     .sidebar {
@@ -53,15 +47,16 @@
     }
   }
   .info{
-    font-size: 25px;
+    align-items: center;
+    font-size: 35px;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
-    /* margin-left: 20px; */
+    justify-content: space-around;
     margin-top: 50px;
     margin-left: 300px;
     padding: 1px 16px;
-    /* height: 100px; */
+  
 
   } 
   label {
