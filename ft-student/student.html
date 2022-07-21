@@ -24,7 +24,11 @@
 
     <div class="info">
         <span>
-            <label for="name">Full Name: </label>
+            <label for="name">First Name: </label>
+            <input type="text" name="Name" id="name">
+        </span>
+        <span>
+            <label for="name">Last Name: </label>
             <input type="text" name="Name" id="name">
         </span>
         <span>
@@ -37,10 +41,11 @@
         </span>
         <span>
             <label for="date-time"></label>
-            <p id="date"></p>
-        </span>  
+            <span id="date"></span>
+            <span id="demo"></span>
+        </span>
         <div class="signin">
-            <button class="sign_in" onclick="get_time()">sign In</button>
+            <button class="sign_in" onclick="get_time(), getLocation()">sign In</button>
             <button class="sign_out" type="submit">Sign Out</button>
 
         </div>
@@ -66,14 +71,9 @@
         </div>
     </div>
 
-    <script>
-        function get_time() {
-            let time = document.getElementById('date').innerHTML = Date();
-
-            return alert(`You have logged in on: ${time}`);
-        };
-
-    </script>
+    <script src="./js/student.js">
+        
+        </script>
 </body>
 
 </html>
