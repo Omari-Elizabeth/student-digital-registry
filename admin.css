@@ -20,11 +20,6 @@
     background-color:#D8CCA3;
     color:#5F939A;
 }
-div.content{
-    margin-left: 200px;
-    padding: 1px 15px;
-    height: 150px;
-}
 .table{
     margin-top: 20px;
 }
@@ -45,6 +40,10 @@ table,th,td{
 } */
 h1{
     text-align: center;
+    background-color: #5F939A;
+    height: 150px;
+    margin-bottom: 0;
+    padding-top:100px;
 }
 th{
     padding: 15px;
