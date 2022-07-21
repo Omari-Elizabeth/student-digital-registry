@@ -333,13 +333,10 @@ button:hover {
   opacity: 0.8;
 }
 
-
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
+/*#bar{
+display: block;
+width: 100%;
+}*/
 
 .headingform {
   text-align: center;

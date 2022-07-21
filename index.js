@@ -18,9 +18,9 @@ function sendEmail(){
 
 var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
+// When the user clicks anywhere outside of the form, close it
 window.onclick = function(event) {
-    if (event.target == form) {
+    if (event.target == modal) {
         modal.style.display = "none";
     }
 }
