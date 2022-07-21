@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:ital,wght@0,400;1,300&family=Prompt&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/626ac7a8a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Student Attendance System</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="header">
+        <div class="logo">
+          <a href="#">Attendance Registry</a>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="student.html">Student</a></li>
+          <li><a href="admin.html">Admin</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+          <button
+            class="loginbtn"
+            onclick="document.getElementById('id01').style.display='block'"
+            style="width: a"
+          >
+            Login
+          </button>
+        </ul>
+      </div>
+    </nav>
+    <div id="id01" class="formcontainer">
+      <form class="form" action="" method="post">
+        <div class="headingform">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="close"
+            title="Close Form"
+            >&times;</span
+          >
+          <h1>LOGIN</h1>
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            required
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+          <div class="formlinks">
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </div>
+
+      </form>
+    </div>
+    <div class="containercontact">
+        <form class="contact" onsubmit="sendEmail();reset();return false;"  >
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name"  placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="phone" placeholder="Your Phone" required>
+            <textarea id="message" cols="30" row="4" placeholder="How can we help you"></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+    </div>
+
+    
+
+    <footer id="subscribe">
+      <div class="row primary">
+        <div class="column about">
+          <h3 class="footerheading">Student Attendance Registry</h3>
+          <p>
+            A student attendance application will provide an institution with
+            the ability to monitor and manage student attendance efficiently by
+            getting real time data and eliminate the manual paper work.
+          </p>
+        </div>
+        <div class="column links">
+          <h3 class="">Quick Links</h3>
+          <ul class="footerul">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="admin.html">Admin</a>
+            </li>
+            <li>
+              <a href="student.html">Student</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="#">F.A.Q</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column subscribe">
+          <h3 class="footerheading">Subscribe to get our Newsletters</h3>
+          <div>
+            <input type="email" placeholder="Enter email Address" />
+            <button class="subcribebtn">Subscribe</button>
+          </div>
+
+          <div class="social">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+
+            <i class="fa fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row secondary">
+        <div>
+          <p>
+            <i class="fas fa-phone-alt"></i>
+          </p>
+          <p>+254 71269345</p>
+        </div>
+        <div>
+          <p><i class="fas fa-envelope"></i></p>
+          <p>studentattendance.com</p>
+        </div>
+        <div>
+          <p><i class="fas fa-map-marker-alt"></i></p>
+          <p>Ngong Lane, Ngong Lane Plaza, 1st Floor, Nairobi Kenya</p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright &copy; 2022 Student Attendance | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:ital,wght@0,400;1,300&family=Prompt&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/626ac7a8a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Student Attendance System</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="header">
+        <div class="logo">
+          <a href="#">Attendance Registry</a>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="student.html">Student</a></li>
+          <li><a href="admin.html">Admin</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+          <button
+            class="loginbtn" id="bar"
+            onclick="document.getElementById('id01').style.display='block'"
+            style="width: auto"
+          >
+            Login
+          </button>
+        </ul>
+      </div>
+    </nav>
+    <div id="id01" class="formcontainer">
+      <form class="form" action="" method="post">
+        <div class="headingform">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="close"
+            title="Close Form"
+            >&times;</span
+          >
+          <h1>LOGIN</h1>
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            required
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+          <div class="formlinks">
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="img"></div>
+    <div class="center">
+      <div class="title">Student Attendance Registry</div>
+      <div class="sub_title">Track attendance easy</div>
+      <div class="btns">
+        <button >Learn More</button>
+        <a href="#subcribe">
+          <button>Subscribe</button>
+
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="cardheading">
+        <h1>Notices</h1>
+        <div class="cardrow">
+          <div class="card">
+            <div class="card-header">
+              <h1>Upcoming Events</h1>
+            </div>
+            <div class="card-body">
+              <p>29/07/2020</p>
+              <p>
+               career Fair Week
+              </p>
+              <a href="#" class="btn">View More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h1>Internal Hackathon</h1>
+            </div>
+            <div class="card-body">
+              <p>
+                9/08/2022 @10.00am-4.00p.m
+              </p>
+              <p>
+                Access Students hackathon
+              </p>
+              <a href="#" class="btn">View More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h1>Webinar</h1>
+            </div>
+            <div class="card-body">
+              <p>
+                Thursday 21/08/2022 @700am-8.00p.m
+              </p>
+              <p>
+                Preparing students for successful future in tech
+              </p>
+              <p>Daily Productive Strategies</p>
+              <a href="#" class="btn">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="subscribe">
+      <div class="row primary">
+        <div class="column about">
+          <h3 class="footerheading">Student Attendance Registry</h3>
+          <p>
+            A student attendance application will provide an institution with
+            the ability to monitor and manage student attendance efficiently by
+            getting real time data and eliminate the manual paper work.
+          </p>
+        </div>
+        <div class="column links">
+          <h3 class="">Quick Links</h3>
+          <ul class="footerul">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="admin.html">Admin</a>
+            </li>
+            <li>
+              <a href="student.html">Student</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="#">F.A.Q</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column subscribe">
+          <h3 class="footerheading">Subscribe to get our Newsletters</h3>
+          <div>
+            <input type="email" placeholder="Enter email Address" />
+            <button class="subcribebtn">Subscribe</button>
+          </div>
+
+          <div class="social">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+
+            <i class="fa fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row secondary">
+        <div>
+          <p>
+            <i class="fas fa-phone-alt"></i>
+          </p>
+          <p>+254 71269345</p>
+        </div>
+        <div>
+          <p><i class="fas fa-envelope"></i></p>
+          <p>studentattendance.com</p>
+        </div>
+        <div>
+          <p><i class="fas fa-map-marker-alt"></i></p>
+          <p>Ngong Lane, Ngong Lane Plaza, 1st Floor, Nairobi Kenya</p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright &copy; 2022 Student Attendance | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
